@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 
-prefix=$(cat templates | rofi -dmenu)
+prefix=$(cat $HOME/.config/ssignoff/templates | rofi -dmenu)
 email=$(git config --get user.email)
 name=$(git config --get user.name)
 echo "$prefix $name <$email>"
