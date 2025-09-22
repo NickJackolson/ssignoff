@@ -1,7 +1,12 @@
 # ssignoff
 ssignoff is a sign-off generator which utilizes rofi and git configurations.
 
-# Installation
+## Prequisites
+```
+* rofi
+```
+
+## Installation
 ```bash
 mkdir -p $HOME/.config/ssignoff/
 cp templates $HOME/.config/ssignoff
